@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+html, body, header, nav, ul, li, main, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Ensure full width and height for header */
+header {
+    width: 100%;
+    height: auto;
+    background-color: #333; /* Change color as needed */
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between nav items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Change color as needed */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Add some padding for better readability */
+    font-family: sans-serif; /* Change font family */
+}
+
+/* Style form */
+form {
+    margin-top: 20px; /* Add space between heading and form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Add some space between label and input */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between inputs */
+    border: 1px solid #ccc; /* Add border for better visibility */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333; /* Change color as needed */
+    color: #fff; /* Change color as needed */
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555; /* Change color as needed */
+}
