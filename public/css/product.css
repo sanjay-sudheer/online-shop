@@ -1,49 +1,25 @@
-/* Reset default margin and padding */
-html, body, header, nav, ul, li, main, h1, p {
-    margin: 0;
-    padding: 0;
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
 }
 
-nav{
-    background-color: #333;
-    padding: 10px;
+.product-item {
+    width: 20rem;
+    max-width: 95%;
 }
 
-/* Ensure full width and height for header */
-header {
-    width: 100%;
-    height: auto;
-    background-color: #333; /* Change color as needed */
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
 }
 
-/* Style navigation */
-nav ul {
-    list-style-type: none;
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px; /* Adjust spacing between nav items */
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff; /* Change color as needed */
-}
-
-/* Main content styles */
-main {
-    padding: 20px; /* Add some padding for better readability */
-    font-family: sans-serif; /* Change font family */
-}
-
-/* Style heading */
-h1 {
-    margin-bottom: 10px; /* Add some space below heading */
-}
-
-/* Style paragraph */
-p {
-    font-size: 16px; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height for better readability */
+.product__description {
+    text-align: center;
 }
